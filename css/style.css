@@ -267,6 +267,26 @@
    border: 1px solid greenyellow;
    cursor: pointer;
  }
+
+ .descricaoLinguagens{
+     max-width: 600px;
+     min-width: 600px;
+ }
+ .descricaoLinguagens p {
+     font-size: 17px;
+     color: greenyellow;
+     margin-top: 20px;
+     font-weight: normal;
+     text-align: justify;
+ }
+ 
+ .divResultado{
+     width: 400px;
+ }
+
+ .descricaoLinguagens h1{
+     font-size: 40px;
+ }
  
  .footer{
    background-color: #012a4a;
