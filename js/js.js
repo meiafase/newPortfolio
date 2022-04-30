@@ -5,6 +5,15 @@ let php = document.getElementById("phpDiv");
 let c = document.getElementById("cDiv");
 let mysql = document.getElementById("mysqlDiv");
 
+function menuDropDown() {
+    var x = document.getElementById("menuId");
+    if (x.className === "") {
+      x.className += "responsive";
+    } else {
+      x.className = "item-menu";
+    }
+  }
+
 html.addEventListener("mouseover", function( event ) {
     var div = document.getElementById("divResultado");
     
