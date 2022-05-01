@@ -360,7 +360,7 @@
     margin-top: 0;
     text-align: center;
     width: 100%;
-    padding: 100px;
+    padding: 10px;
   }
 }
 
@@ -402,7 +402,7 @@
   }
   .divResultado p{
     margin-left: 100px;
-    height: 200px;
+    height: 100px;
     width: 100%;
     text-align: center;
   }
