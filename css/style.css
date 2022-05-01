@@ -171,6 +171,7 @@
    text-align: center;
    margin-bottom: 10px;
    font-size: 45px;
+   padding-top: 80px;
  }
  
  .projetos h2{
@@ -310,27 +311,112 @@
    font-size: 15px;
  }
 
-
- @media screen and (max-width: 600px) {
-    .item-menu a{
-        display: none;
-    }
-    .item-menu a.icon{
-        float: right;
-        display: block;
-    }
+@media screen and (max-width: 600px) {
+  .item-menu.responsive {position: relative;}
+  .item-menu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
+  .item-menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+    .item-menu a{
+      display: none;
+  }
+  .item-menu a.icon{
+      float: right;
+      display: block;
+  }
+}
+@media screen and (max-width: 600px){
+  .center{
+    display: flex;
+    flex-direction: column;
+  }
+  .quemSou-left{
+    width: 100%;
+    text-align: center;
+  }
+  .quemSou-right{
+    align-content: center;
+    width: 100%;
+  }
+  .quemSou{
+    height: 1000px;
+  }
+}
 
-  @media screen and (max-width: 600px) {
-    .item-menu.responsive {position: relative;}
-    .item-menu.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .item-menu.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-      }
+@media screen and (max-width: 600px){
+  .quemSou-bottom{
+    height: 600px;
+  }
+  .quemSou-left-gif{
+    display: none;
+  }
+  .quemSou-bottom-right{
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    padding: 100px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .projetos{
+    height: 900px;
+  }
+  .projetos h1{
+    padding-top: 20;
+  }
+  .center-projetos{
+    flex-wrap: wrap;
+    height: 750px;
+  }
+  .card-projetos{
+    width: 100%;
+  }
+  .card-projetos:hover{
+    box-shadow: none;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .conhecimentos{
+    width: 100%;
+  }
+  .center-conhecimentos{
+    flex-wrap: wrap;
+    height: 1200px;
+  }
+  .descricaoLinguagens{
+    width: 100%;
+  }
+  .descricaoLinguagens h1{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .divResultado p{
+    margin-left: 100px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+  }
+  .linguagens{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+  .card-conhecimentos {
+    width: 150px;
+    height: 150px;
+  }
+  .card-conhecimentos img{
+    width: 150px;
+    height: 150px;
+  }
 }
