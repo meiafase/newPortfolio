@@ -391,6 +391,7 @@
   .center-conhecimentos{
     flex-wrap: wrap;
     height: 1200px;
+    width: 100%;
   }
   .descricaoLinguagens{
     width: 100%;
@@ -418,5 +419,19 @@
   .card-conhecimentos img{
     width: 150px;
     height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .footer{
+    height: 200px;
+  }
+  .conteudo{
+    flex-wrap: wrap;
+  }
+  .conteudo-left{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
   }
 }
