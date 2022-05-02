@@ -31,8 +31,8 @@ css.addEventListener("mouseover", function( event ) {
     var div = document.getElementById("divResultado");
     
     div.innerHTML = "<p>CSS é uma linguagem de folha de estilo " +
-                    "usada para descrever a apresentação" +
-                    "de um documento escrito em uma linguagem"+ 
+                    "usada para descrever a apresentação " +
+                    "de um documento escrito em uma linguagem "+ 
                     "de marcação como HTML.</p>";
 });
 css.addEventListener("mouseout", function( event ) {
@@ -45,7 +45,7 @@ js.addEventListener("mouseover", function( event ) {
     var div = document.getElementById("divResultado");
     
     div.innerHTML = "<p>JavaScript é uma linguagem de programação que " +
-                    "é uma das principais tecnologias da" +
+                    "é uma das principais tecnologias da " +
                     "World Wide Web, juntamente com HTML e CSS.</p>";
 });
 js.addEventListener("mouseout", function( event ) {
