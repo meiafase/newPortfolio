@@ -6,7 +6,10 @@
 
  body {
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 } 
+
+
  .center{
    max-width: 1060px;
    margin: 0 auto;
@@ -110,6 +113,13 @@
    padding: 50px;
    margin-top: 70px;
    border-radius: 70px;
+   transition:all 0.3s ease;
+ }
+
+ .quemSou-left-gif img:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
  }
  
  .quemSou-right{
@@ -118,13 +128,22 @@
    flex-direction: column;
    justify-content: space-between;
    margin-top: 120px;
+   
  }
  .quemSou-right img{
    margin: 0 auto;
    width: 320px;
    border-radius: 800px;
    border: 3px solid aliceblue;
+   transition:all 0.3s ease;
  }
+
+ .quemSou-right img:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+ }
+
  .quemSou-right a{
    text-align: center;
    margin-top: 10px;
