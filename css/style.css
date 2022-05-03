@@ -85,6 +85,44 @@
  button:focus {
      outline: none;
  }
+
+ .quemSou-left h3{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+.quemSou-left h3:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+.quemSou-left h3{
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+  color: greenyellow;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
  
  .quemSou{
    width: 100%;
@@ -365,6 +403,44 @@
   }
   .quemSou{
     height: 1000px;
+  }
+
+  
+  .quemSou-left h3{
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    animation: type 4s steps(60, end); 
+  }
+
+  .quemSou-left h3:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+
+  .quemSou-left h3{
+    text-decoration: none;
+  }
+
+  span{
+    animation: blink 1s infinite;
+  }
+
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+
+  ::selection{
+    background: black;
   }
 }
 
