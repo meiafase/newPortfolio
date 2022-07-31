@@ -91,4 +91,70 @@ mysql.addEventListener("mouseout", function( event ) {
 });
 
 
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('.quemSou', { duration: 1000 });
+
+sr.reveal('.quemSou-bottom', { duration: 2000 });
+
+sr.reveal('.quemSou-right', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 4000 
+});
+
+sr.reveal('.quemSou-left-gif', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 6000 
+});
+
+sr.reveal('.projetos', { duration: 2000 });
+
+sr.reveal('.projetosUm', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 2000 
+});
+
+sr.reveal('.projetosDois', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 3000 
+});
+
+sr.reveal('.projetosTres', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 4000 
+});
+
+sr.reveal('.conhecimentos', { duration: 2000 });
+
+sr.reveal('.conhecimentosUm', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 1000 
+});
+
+sr.reveal('.conhecimentosDois', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 2200 
+});
+
+sr.reveal('.conhecimentosTres', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 2400 
+});
+
+sr.reveal('.conhecimentosQuatro', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 2600 
+});
+
+sr.reveal('.conhecimentosCinco', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 2800 
+});
+
+sr.reveal('.conhecimentosSeis', {
+    rotate: { x: 0, y: 80, z: 0},
+    duration: 3000 
+});
+
+
 

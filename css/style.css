@@ -6,10 +6,12 @@
 
  body {
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+  background-color: #161a1d;
 } 
 
-
+html{
+  scroll-behavior: smooth;
+}
  .center{
    max-width: 1060px;
    margin: 0 auto;
@@ -529,4 +531,8 @@ span{
     text-align: center;
     padding-top: 10px;
   }
+}
+
+.quemSou, .quemSou-bottom, .projetos, .conhecimentos{
+  visibility: hidden;
 }
